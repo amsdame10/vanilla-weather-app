@@ -87,6 +87,7 @@ hover.location-button {
 .upcoming-forecast-temps {
   color: #cadefc;
   font-size: 18px;
+  opacity: 0.5;
 }
 .warnings {
   text-align: center;
