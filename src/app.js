@@ -34,7 +34,7 @@ function showTemperature(response) {
 }
 function showUpcomingForecast(cityName) {
   let apiKey = "aa40t8d1bd54664f0620c94c13e6537o";
-  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${cityName}&key=${apiKey}&units=metric`;
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${cityName}&key=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayForecast);
 }
 function formatDays(timestamp) {
